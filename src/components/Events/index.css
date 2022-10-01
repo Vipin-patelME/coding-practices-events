@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.main-cont {
+  display: flex;
+}
+.events-cont {
+  background-color: #323f4b;
+  min-height: 100vh;
+  width: 60%;
+  background-size: cover;
+}
+.event-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-left: 60px;
+  padding-top: 30px;
+}
+.list-cont {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.single-list {
+  height: 200px;
+  width: 30%;
+  margin: 5px;
+}
+.event-image {
+  height: 120px;
+  margin: 0px;
+}
+.events-head {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 20px;
+  margin: 5px;
+}
+.events-para {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  margin: 5px;
+  font-size: 12px;
+}
+.registration-cont {
+  color: #64748b;
+  font-family: 'Roboto';
+  padding: 20px;
+  text-align: center;
+}
