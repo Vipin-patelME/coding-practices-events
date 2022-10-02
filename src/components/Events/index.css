@@ -47,3 +47,43 @@
   padding: 20px;
   text-align: center;
 }
+.yet-to-register-image {
+  margin-top: 60px;
+  margin-left: 60px;
+  height: 400px;
+  width: 300px;
+}
+.register-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 200px;
+  background-color: #0967d2;
+  border-radius: 8px;
+  border-style: none;
+}
+.registered-image {
+  height: 100px;
+  width: 100px;
+  margin-top: 240px;
+  margin-left: 100px;
+}
+.registerd-para {
+  text-align: center;
+  margin-left: 130px;
+  font-weight: 510;
+  font-size: 20px;
+}
+.closed-image {
+  margin-top: 60px;
+  margin-left: 60px;
+  height: 400px;
+  width: 400px;
+}
+.finished-para {
+  margin-left: 130px;
+}
+
+.event-button {
+  border-collapse: collapse;
+}
