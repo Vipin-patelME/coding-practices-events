@@ -58,19 +58,31 @@ const eventsList = [
 // Write your code here
 
 class Events extends Component {
+  state = {registrationstatus: 'initial'}
+
+  onRegistrationStatus = registrationStatus => {
+    this.setState({registrationstatus: registrationStatus})
+  }
+
   render() {
+    const {registrationstatus} = this.state
+    console.log(registrationstatus)
     return (
       <div className="main-cont">
         <div className="events-cont">
           <h1 className="event-heading">Events</h1>
           <ul className="list-cont">
             {eventsList.map(eachEvents => (
-              <EventItem eachEvents={eachEvents} key={eachEvents.id} />
+              <EventItem
+                eachEvents={eachEvents}
+                key={eachEvents.id}
+                changedRegistationStatus={this.onRegistrationStatus}
+              />
             ))}
           </ul>
         </div>
         <div className="registration-cont">
-          <p>Click on the events to view it's registration details</p>
+          <ActiveEventRegistrationDetails status={registrationstatus} />
         </div>
       </div>
     )
